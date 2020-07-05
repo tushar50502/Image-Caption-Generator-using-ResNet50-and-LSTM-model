@@ -87,9 +87,11 @@ the number of elements in the same are incremented by 1. Also, we maintain a lis
 that stores the next word at each sub-iteration. Further, one hot encoding is applied on the list that
 contains the next word. Further, both partial sequence and one hot encoded next word are
 converted into arrays.<br><br>
-![](/Images/dog.jpeg )
+![](/Images/dog.jpeg )<br>
+  Fig 1. An image from dataset
   <br><br>
-  | INPUT SEQUENCE                                                                 | NEXT WORD |
+  
+| INPUT SEQUENCE                                                                 | NEXT WORD |
 |--------------------------------------------------------------------------------|-----------|
 | <start&gt;                                                                     | A         |
 | <start&gt;, A                                                                  | black     |
@@ -105,7 +107,11 @@ converted into arrays.<br><br>
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the          | snow      |
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow    | .         |
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow, . | <end&gt;  |
-  <br><br>
+
+Table 1. Data Generator
+
+
+
 Then, keeping in mind space and time complexities, only '2000’ images and their captions are
 considered. The formats of this images and captions are replicated and manipulated, which leads
 to generation of new formats of images and captions. Further, different files are created and,
@@ -153,15 +159,23 @@ We pictorially represent the value of loss and accuracy at every epoch in the re
 Loss value would decrease, and accuracy value would increase as we move from lower to higher
 number of epochs. Also, more the number of epochs, more would be the smoothness of these
 curves.<br><br>
+
 ![](/Images/Res1.jpeg )
+<br>Fig 2. Graph showing Loss vs Epochs
 <br><br>
 ![](/Images/Res2.jpeg )
+<br>Fig 3. Graph showing Accuracy vs Epochs
+<br>
 
 ### 5.1 Outputs generated from the model
+
 Some sample images from within and outside the dataset have been tested and we have got the
-following results.
-![](/Images/Out1.jpeg )
-![](/Images/Out2.jpeg )
-![](/Images/Out3.jpeg )
-![](/Images/Out4.jpeg )
-![](/Images/Out5.jpeg )
+following results.<br>
+
+![](/Images/Out1.jpeg )<br>
+![](/Images/Out2.jpeg )<br>
+![](/Images/Out3.jpeg )<br>
+![](/Images/Out4.jpeg )<br>
+![](/Images/Out5.jpeg )<br>
+
+Fig 4. Some examples of generated captions for input images
