@@ -87,7 +87,7 @@ the number of elements in the same are incremented by 1. Also, we maintain a lis
 that stores the next word at each sub-iteration. Further, one hot encoding is applied on the list that
 contains the next word. Further, both partial sequence and one hot encoded next word are
 converted into arrays.<br><br>
-![](/Images/dog.jpeg )<br>
+![](/Images/dog.JPG )<br>
   Fig 1. An image from dataset
   <br><br>
   
@@ -160,10 +160,10 @@ Loss value would decrease, and accuracy value would increase as we move from low
 number of epochs. Also, more the number of epochs, more would be the smoothness of these
 curves.<br><br>
 
-![](/Images/Res1.jpg )
+![](/Images/Res1.JPG )
 <br>Fig 2. Graph showing Loss vs Epochs
 <br><br>
-![](/Images/Res2.jpg )
+![](/Images/Res2.JPG )
 <br>Fig 3. Graph showing Accuracy vs Epochs
 <br>
 
@@ -172,10 +172,10 @@ curves.<br><br>
 Some sample images from within and outside the dataset have been tested and we have got the
 following results.<br>
 
-![](/Images/Out1.jpg )<br>
-![](/Images/Out2.jpg )<br>
-![](/Images/Out3.jpg )<br>
-![](/Images/Out4.jpg )<br>
-![](/Images/Out5.jpg )<br>
+![](/Images/Out1.JPG )<br>
+![](/Images/Out2.JPG )<br>
+![](/Images/Out3.JPG )<br>
+![](/Images/Out4.JPG )<br>
+![](/Images/Out5.JPG )<br>
 
 Fig 4. Some examples of generated captions for input images
