@@ -160,10 +160,10 @@ Loss value would decrease, and accuracy value would increase as we move from low
 number of epochs. Also, more the number of epochs, more would be the smoothness of these
 curves.<br><br>
 
-![](/Images/Res1.jpeg )
+![](/Images/Res1.jpg )
 <br>Fig 2. Graph showing Loss vs Epochs
 <br><br>
-![](/Images/Res2.jpeg )
+![](/Images/Res2.jpg )
 <br>Fig 3. Graph showing Accuracy vs Epochs
 <br>
 
@@ -172,10 +172,10 @@ curves.<br><br>
 Some sample images from within and outside the dataset have been tested and we have got the
 following results.<br>
 
-![](/Images/Out1.jpeg )<br>
-![](/Images/Out2.jpeg )<br>
-![](/Images/Out3.jpeg )<br>
-![](/Images/Out4.jpeg )<br>
-![](/Images/Out5.jpeg )<br>
+![](/Images/Out1.jpg )<br>
+![](/Images/Out2.jpg )<br>
+![](/Images/Out3.jpg )<br>
+![](/Images/Out4.jpg )<br>
+![](/Images/Out5.jpg )<br>
 
 Fig 4. Some examples of generated captions for input images
