@@ -87,7 +87,7 @@ the number of elements in the same are incremented by 1. Also, we maintain a lis
 that stores the next word at each sub-iteration. Further, one hot encoding is applied on the list that
 contains the next word. Further, both partial sequence and one hot encoded next word are
 converted into arrays.<br><br>
-![](/Images/dog.JPG )<br>
+![](/Images/dog.jpg )<br>
   Fig 1. An image from dataset
   <br><br>
   
