@@ -176,7 +176,7 @@ following results.<br>
 ![](/Images/Out2.JPG )<br>
 <img src="/Images/Out3.JPG"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px; width="100" />
+     style="float: left; margin-right: 10px; width: 60%; />
 ![](/Images/Out4.JPG )<br>
 ![](/Images/Out5.JPG )<br>
 
